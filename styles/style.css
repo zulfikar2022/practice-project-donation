@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+}
+
+
+header img{
+    width: 100vw;
+    height: 100vh;
+}
+header h1{
+    position: absolute;
+    top: 28%;
+    left: 28%;
+    font-size: 55px;
+    color: white;
+    text-align: center;
+}
+header p{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    top: 53%;
+    left: 31%;
+    text-align: center;
+}
+
+/* Design for buttons  */
+.btn {
+    background-color: tomato;
+    border: none;
+    border-radius: 4px;
+    height: 33px;
+    padding: 5px;
+    padding-top: 10px;
+    padding-bottom: 33px;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight:500;
+    padding: 10px;
+    
+}
+/* Button design end  */
+ header button{
+    position: absolute;
+    top: 69%;
+    left: 47%;
+ }
+
+
+ /* design for main section */
+ /*  design for the donate today part */
+ main h2{
+    text-align: center;
+    font-size: 40px;
+
+ }
+ main  p{
+    text-align: center;
+    color: gray;
+ }
+ main > .donate>.amount>div{
+    border: none;
+    border-radius: 3px;
+    background-color: #f1e2e2c2;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 36px;
+    font-weight: 600;
+    font-size: 25px;
+    color:#977979bf ;
+    
+
+ }
+
+ main > .donate>.amount{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 25px;
+ }
+
+ main > .donate>.amount> .target{
+    border: 1px solid red;
+    background-color: #eba3a37d;
+
+ }
+
+ main > .donate>.other-amount>p{
+    text-align: center;
+    color: grey;
+    margin-top: 40px;
+    margin-bottom: 10px;
+ }
+ main > .donate>.other-amount>button{
+    position: relative;
+    left: 600px;
+    margin-top: 25px;
+ }
+ /* end of  design for the donate today part */
+
+
+ /* design for donate plan */
+ .donate-plan 
