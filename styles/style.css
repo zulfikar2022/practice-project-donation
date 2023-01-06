@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     scroll-behavior: smooth;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -182,6 +183,8 @@ footer{
    display: flex;
    flex-direction: column;   
    align-items: center;
+   /* font-family: 'Sevillana', cursive; */
+  
 }
 
 footer h2{
