@@ -175,3 +175,18 @@ header p{
 .get-update form button{
    height: 47px;
 }
+
+/* footer style */
+footer{
+   background-color: #0e0e3e;
+   display: flex;
+   flex-direction: column;   
+   align-items: center;
+}
+
+footer h2{
+   color: red;
+}
+footer p{
+   color: white;
+}
