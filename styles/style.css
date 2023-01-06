@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -131,3 +132,22 @@ header p{
  .donate-plan .donate-type .education{
    background-color: #e9dedeeb;
  }
+
+ /* styles for display flex */
+
+ main .display-flex .first,.second{
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   margin-top: 30px;
+ }
+ main .display-flex  img { 
+   height: 320px;
+   width: 448px;
+   border-radius: 3px;
+ }
+
+.display-flex p{
+   color: gray
+   ;
+}
